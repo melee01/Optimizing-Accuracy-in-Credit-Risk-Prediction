@@ -99,33 +99,54 @@ Random Forest and LightGBM provided the best balance of **accuracy** and **gener
 
 ---
 
-### Feature Importance (LightGBM)  
-![Feature Importance](images/nb_image_03.svg)  
-Income, employment length, and delinquency history were the strongest predictors of borrower risk.  
-
----
-
-### Borrower Clusters (K-Means)  
-![K-Means Clusters](images/nb_image_07.svg)  
-K-Means grouped borrowers into clusters: stable high-income earners vs. irregular repayment groups.  
-
----
-
-### Anomaly Detection (Isolation Forest)  
-![Isolation Forest](images/nb_image_12.svg)  
-Isolation Forest identified rare but high-risk cases showing unusual financial behavior.  
-
----
-
-### ROC Curve for Anomaly Detection  
-![ROC Curve](images/nb_image_15.svg)  
-ROC curves demonstrate separation between risky and non-risky borrowers. Higher AUC = better detection.  
-
----
-
 ## How to Run  
 
 1. Clone the repository:  
    ```bash
    git clone https://github.com/melee01/Optimizing-Accuracy-in-Credit-Risk-Prediction.git
    cd Optimizing-Accuracy-in-Credit-Risk-Prediction
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+3. Open the Jupyter Notebook:
+   ```bash
+   jupyter notebook credit_risk_prediction.ipynb
+4. Run all cells to reproduce the results.
+
+---
+
+## Repository Structure
+   ```bash
+   .
+├── dataset/
+│   ├── application_record.csv
+│   └── credit_record.csv
+├── documents/
+│   ├── credit_risk_prediction_proposal.pdf   # project proposal
+│   └── project_presentation_slides.pdf       # presentation slides
+├── images/
+│   ├── nb_image_03.svg   # Feature importance
+│   ├── nb_image_07.svg   # Clustering results
+│   ├── nb_image_12.svg   # Isolation Forest anomalies
+│   ├── nb_image_15.svg   # ROC curve
+│   └── ... (other figures)
+├── credit_risk_prediction.ipynb              # main analysis notebook
+├── requirements.txt                          # dependencies
+└── README.md
+
+---
+
+## References
+- Dataset: Kaggle – Credit Card Approval Prediction
+- Academic papers and Kaggle discussions on credit scoring
+- Documentation: Scikit-learn, LightGBM, XGBoost
+
+---
+
+## Contributors
+1. Zhong Zhu Chen
+2. He James
+3. Melisa Lee
+4. Liu Mingcheng
+5. Syarwina Ridwan
+6. Nur Diyanah Binte Hasan Malik

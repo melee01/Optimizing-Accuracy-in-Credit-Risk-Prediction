@@ -133,6 +133,7 @@ Random Forest and LightGBM provided the best balance of **accuracy** and **gener
 ├── credit_risk_prediction.ipynb              # main analysis notebook
 ├── requirements.txt                          # dependencies
 └── README.md
+   ```
 
 ---
 

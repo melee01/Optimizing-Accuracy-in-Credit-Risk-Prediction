@@ -14,8 +14,9 @@ By comparing different approaches, the aim is to identify models that effectivel
 ---
 
 ## Documents  
+- [project analysis](./documents/credit_risk_prediction_analysis.pdf) – main project analysis in pdf version.
 - [Project Proposal](./documents/credit_risk_prediction_proposal.pdf) – background, motivation, and detailed methodology.  
-- [Presentation Slides](./documents/project_presentation_slides.pdf) – summarized key results, visuals, and final insights.  
+- [Presentation Slides](./documents/project_presentation_slides.pdf) – summarized key results, visuals, and final insights.
 
 ---
 
@@ -122,6 +123,7 @@ Random Forest and LightGBM provided the best balance of **accuracy** and **gener
 │   ├── application_record.csv
 │   └── credit_record.csv
 ├── documents/
+│   ├── credit_risk_prediction_analysis.pdf   # pdf version of main analysis notebook
 │   ├── credit_risk_prediction_proposal.pdf   # project proposal
 │   └── project_presentation_slides.pdf       # presentation slides
 ├── images/
@@ -130,7 +132,7 @@ Random Forest and LightGBM provided the best balance of **accuracy** and **gener
 │   ├── nb_image_12.svg   # Isolation Forest anomalies
 │   ├── nb_image_15.svg   # ROC curve
 │   └── ... (other figures)
-├── credit_risk_prediction.ipynb              # main analysis notebook
+├── credit_risk_prediction.ipynb              # main analysis notebook using jupyter
 ├── requirements.txt                          # dependencies
 └── README.md
    ```

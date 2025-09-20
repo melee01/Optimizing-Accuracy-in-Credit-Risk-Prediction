@@ -1,0 +1,10 @@
+kneed
+lightgbm==4.5.0
+matplotlib==3.6.3
+numpy==1.24.0
+pandas==1.5.3
+scikit-learn==1.1.3
+scipy==1.14.1
+seaborn==0.11.2
+smogn
+tensorflow
